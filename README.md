@@ -3,6 +3,23 @@
 
 使用[qwen2](https://qwen.readthedocs.io/zh-cn/latest/training/SFT/example.html)官方教程微调
 
+## 系统环境
+### 硬件
+- CPU：Intel(R) Xeon(R) Platinum 8480+
+- 内存：2T
+- NVIDIA H800(80G) * 8，
+### 软件
+- python：3.10.14
+- CUDA Version：12.4
+- transformers: 4.42.4
+- torch: 2.3.1
+- peft: 0.11.1
+- deepspeed: 0.14.4
+- accelerate: 0.33.0
+- optimum: 1.21.2
+
+
+
 ## 数据集
 
 Ape210K 是一个新的大规模和模板丰富的数学单词问题数据集，包含 210K 个中国小学水平的数学问题。每个问题都包含最佳答案和得出答案所需的方程式。
