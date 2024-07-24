@@ -7,7 +7,7 @@
 
 Ape210K 是一个新的大规模和模板丰富的数学单词问题数据集，包含 210K 个中国小学水平的数学问题。每个问题都包含最佳答案和得出答案所需的方程式。
 
-通过`data_process_qwen2`将Ape210K数据转换成qwen2微调所需格式。
+通过[data_process_qwen2](./notebook/data_process_qwen2.ipynb)将Ape210K数据转换成qwen2微调所需格式。
 
 
 
